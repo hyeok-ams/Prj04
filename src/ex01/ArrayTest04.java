@@ -10,28 +10,19 @@ public class ArrayTest04 {
 		String [] bts = {
 			"RM" , "제이홉", "정국", "지민", "진", "슈가", "뷔"
 		};
-		//for문으로 함수에 배열내부의 정보를 계속 호출
-		for (int i = 0; i < bts.length; i++) {
-			hellobts(bts[i]);
-		}
 		System.out.println("");
 		
 		//함수에 배열자체를 넘긴 후 진행 배열 넘길땐 변수명으로 [] 생략가능 
-		hellobts2(bts);
+		hellobts(bts);
 
 	}
 
-	private static void hellobts2(String[] bts) {
+	private static void hellobts(String[] bts) {
 		// TODO Auto-generated method stub
 		for (int i = 0; i < bts.length; i++) {
 			System.out.println("BTS 멤버의 이름은: " + bts[i]);
 		}
 	}
 
-	private static void hellobts(String bts) {
-		
-		System.out.println("BTS 멤버의 이름은: " + bts);
-		
-	}
 
 }
