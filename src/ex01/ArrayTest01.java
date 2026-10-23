@@ -6,7 +6,7 @@ public class ArrayTest01 {
 		// 배열작업
 		
 		System.out.println("김혁");
-
+		System.out.println("가나다");
 	}
 
 }
