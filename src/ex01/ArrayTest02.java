@@ -25,7 +25,7 @@ public class ArrayTest02 {
 		}
 		System.out.println("sum의 합은 "+ sum);
 		System.out.println("sum2의 합은 "+ sum2);
-		//2차원배열 연습
+		//2차원배열 연습 
 	}
 	
 }
