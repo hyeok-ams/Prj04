@@ -18,7 +18,7 @@ public class ArrayTest04 {
 	}
 
 	private static void hellobts(String[] bts) {
-		// TODO Auto-generated method stub
+		// 맴버들을 출력해주는 함수(반복문 for을 사용)
 		for (int i = 0; i < bts.length; i++) {
 			System.out.println("BTS 멤버의 이름은: " + bts[i]);
 		}
